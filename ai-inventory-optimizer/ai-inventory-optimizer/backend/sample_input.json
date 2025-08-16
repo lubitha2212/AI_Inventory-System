@@ -1,0 +1,35 @@
+{
+  "sales": [
+    {"product": "Apple",  "date": "2025-08-01", "quantity": 10},
+    {"product": "Apple",  "date": "2025-08-02", "quantity": 12},
+    {"product": "Apple",  "date": "2025-08-03", "quantity": 8},
+    {"product": "Banana", "date": "2025-08-01", "quantity": 7},
+    {"product": "Banana", "date": "2025-08-02", "quantity": 6},
+    {"product": "Banana", "date": "2025-08-03", "quantity": 5}
+  ],
+  "products": [
+    {
+      "product": "Apple",
+      "stock": 90,
+      "expiry_date": "2025-09-01",
+      "batch": "A-001",
+      "batch_received": "2025-07-01",
+      "shelf_life_days": 60,
+      "supplier": "Supplier A"
+    },
+    {
+      "product": "Banana",
+      "stock": 55,
+      "expiry_date": "2025-08-20",
+      "batch": "B-010",
+      "batch_received": "2025-07-25",
+      "shelf_life_days": 30,
+      "supplier": "Supplier B"
+    }
+  ],
+  "config": {
+    "lead_time_days": 7,
+    "discount_threshold_days": 5,
+    "loss_threshold": 0.2
+  }
+}
